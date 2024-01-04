@@ -1,0 +1,16 @@
+body{
+    color: black;
+    background-color: #fff559;
+}
+h1{
+    text-align: center;
+    color: #dff6ff;
+}
+h2{
+    color: dff6ff;
+}
+.enviar{
+    border-radius: 10%;
+    background-color: #f9ffec;
+    color: #fff5e9
+}

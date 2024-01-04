@@ -1,39 +1,50 @@
+body {
+    background-color: #cfceb4d5;
+    color: black;
+}
 
-body{
-background-color: #f0f0f0;
-color: black;
+h1 {
+    text-align: center;
+    color: #a553db;
+
 }
-h1{
-    color: rgb(225,0, 0);
-    font-size: 25px;
-    font-family: 'Segoe UI';
-    background-color: aquamarine;
-}
-p{
+
+p {
     font-size: large;
     text-align: center;
     color: rgb(12, 0, 185);
 }
-img{
+
+img {
     width: 25%;
     height: 25%;
 }
-.enviar{
-    border-radius: 5px;
-    background-color: blue;
+
+.enviar {
+    border-radius: 10px;
+    background-color: #a1ff30;
+    color: #32a1e9;
+    border-color: black;
 }
-.etiqueta{
-    
-    background-color: rgb(0, 0,225);
+
+.etiqueta {
+
+    background-color: #ff50a1;
 }
-ol li{
+
+ol li {
     font-size: 30px;
     color: blueviolet;
     background-color: yellow;
     text-align: center;
 }
-ul li{
+
+ul li {
     color: green;
     font-weight: bold;
-    
+
+}
+
+h2 {
+    color: #a553db;
 }
