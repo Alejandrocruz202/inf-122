@@ -1,2 +1,3 @@
-# inf-122
+# README
 nombre: Alejandro Angel
+materia: inf-122
