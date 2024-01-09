@@ -22,6 +22,7 @@ body{
     place-items: center;
     background-color: var(--white);
 }
+
 .brochure{
     display: grid;
     
@@ -76,11 +77,14 @@ body{
     display: flex;
     justify-self: center;
     align-items: center;
-    margin-right: 28px;
+    margin-right: 25px;
 }
-.card-icon figure img{
+.card-icon figure svg{
+    display: flex;
     width: 50px;
     height: 50px;
+    justify-self: center;
+    align-items: center;
 }
 icon-text h2{
     font-size: var(--sm);
@@ -89,4 +93,13 @@ icon-text h2{
 icon-text p{
     font-size: var(--sm);
     margin: 0;
+}
+@media(max-width: 720px){
+    .icons-containers{
+        grid-template-columns: 1fr;
+        margin: 50px 10px 50px 10px ;
+    }
+    .brochure p{
+        display: none;
+    }
 }
