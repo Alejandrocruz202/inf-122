@@ -41,3 +41,7 @@
     text-align: justify;
     margin-top: 24px;
 }
+.card-img img{
+    height: 50px;
+    width: 50px;
+}

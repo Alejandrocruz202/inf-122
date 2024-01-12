@@ -18,6 +18,9 @@ function Evento() {
           ¿Cuánto conoces de Python?
           Aprende a trabajar en equipo resolviendo increíbles acertijo
           ¡Anímate a ser parte de esta actividad!</p>
+          <figure className="card-img">
+                    <img className="icon-img" src={require(`../images/face.jpg`)} alt="icon-image"/>
+                </figure>
       </div>
     </div>
   );
