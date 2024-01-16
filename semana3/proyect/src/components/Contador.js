@@ -6,5 +6,7 @@ function Contador({nrocliks}){
         <div className='contador'>{nrocliks}</div>
     );
 }
-
-export default Contador;
+function contador({nrocliks,mostrar}){
+    return mostrar ? <div className="contador">{nrocliks}</div> :null
+}
+export default Contador

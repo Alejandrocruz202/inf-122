@@ -8,7 +8,10 @@ import { useState } from 'react';
 function App() {
   const [show,setshow]=useState(true);
   const[nrocliks, setNumclicks] = useState(0);
-  const mostrar=()=>{ setshow(!Contador)}
+  const mostrar=()=>{ 
+    setshow(!show)
+  }
+
   const click=()=>{
     setNumclicks(nrocliks+1)
     
@@ -31,7 +34,7 @@ function App() {
   }
   return (
     <div className="contenedor-prncipal">
-      <Contador nrocliks={nrocliks}/>
+      <Contador nrocliks={nrocliks } show   />
         <div className="contenedor-de-botones">
           
           <div className='listb'><Boton  text="-3" esBotonClick={true} funcionClik={menos3}/>
@@ -39,7 +42,7 @@ function App() {
           <Boton  text="-1" esBotonClick={true} funcionClik={menos1}/>
           <Boton  text="+1" esBotonClick={true} funcionClik={click}/></div>
           <Boton text="REINICIAR" esBotonClick={false} funcionClik={reiniciar}/>
-          <Boton text="elime" esBotonClick={false} funcionClik={mostrar}/>
+          <Boton text="mostrar ocultar" esBotonClick={false} funcionClik={mostrar}/>
         </div>
         
 
