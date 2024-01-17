@@ -4,38 +4,21 @@ import Cuadro from "./Cuadro";
 
 import "../style/Tablero.css";
 import { useState } from "react";
-function Tablero() {
+function Tablero({ cuadros, Click }) {
     function rederizarCuadro(i){
         return(
             <Cuadro
                  valor={cuadros[i]}
-                 funClick={()=>click(i)}
+                 funClick={()=>Click(i)}
             />
         );
     }
-    const [valor, setValor] = useState("x");
-    const [cuadros, setCuadros] = useState(Array(9).fill(null));
-    const click = (i) => {
-        const cuadrosTemp = [...cuadros];
-        if (cuadrosTemp[i] === null) {
-            cuadrosTemp[i] = valor;
-            setCuadros(cuadrosTemp);
-
-            if (valor === "x") {
-                setValor("o");
-            }
-            else {
-                setValor("x")
-            }
-        }
-
-        //setvalor(valor ==="x"? setvalor("O"):setvalor("x"));
-    }
-
+   
     return(
         <div>
-            <h2>Siguiente Jugador: {valor}</h2>
+            
             <div className="tablero">
+                
                 {rederizarCuadro(0)}
                 {rederizarCuadro(1)}
                 {rederizarCuadro(2)}
@@ -45,7 +28,7 @@ function Tablero() {
                 {rederizarCuadro(6)}
                 {rederizarCuadro(7)}
                 {rederizarCuadro(8)}
-
+  
             </div>
         </div>
         
