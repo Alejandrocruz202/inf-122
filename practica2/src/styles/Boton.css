@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin: 10px 2px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: red;
+  }
