@@ -3,7 +3,7 @@ function Form({title,tipo}){
     return(
         <div>
             <p>{title}</p>
-            <input type={tipo}></input>
+            <input type={tipo}/>
         </div>
         
     );
