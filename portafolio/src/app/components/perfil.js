@@ -3,25 +3,26 @@
 import style from "./perfil.module.css"
 function Perfil(){
     return(
-        <div className={style.profile}>
-                <figure className={style.profileimg}>
+        <div className={style["profile"]}>
+                <figure className={style["profile-img"]}>
                     <img src="perfil.jpeg"/>
                 </figure>
-                <div className={style.profileinfo}>
-                    <h1>Victor Alvarado</h1>
-                    <p>Software Engineer</p>
-                    <div className={style.profilesocial}>
-                        <a href="https://github.com" target="_blank">
-                            <img src="./github.svg" className={style.icon}/>
+                <div className={style["profile-info"]}>
+                    <h1>Alejandro Angel</h1>
+                    <h1>Cruz Chacon</h1>
+                    <p>junior developer</p>
+                    <div className={style["profile-social"]}>
+                        <a href="https://github.com/Alejandrocruz202" target="_blank">
+                            <img src="./github.svg" className={style["icon"]}/>
                         </a> 
-                        <a href="https://github.com" target="_blank">
-                            <img src="./linkedin.svg" className={style.icon}/>
+                        <a href="https://www.facebook.com/profile.php?id=61555775708942" target="_blank">
+                            <img src="./linkedin.svg" className={style["icon"]}/>
                         </a> 
-                        <a href="https://github.com" target="_blank">
-                            <img src="./youtube.svg" className={style.icon}/>
+                        <a href="https://www.youtube.com/channel/UCaEXxTyIai1EMU8x_4rBj6Q" target="_blank">
+                            <img src="./youtube.svg" className={style["icon"]}/>
                         </a> 
-                        <a href="https://github.com" target="_blank">
-                            <img src="./twitter.svg" className={style.icon}/>
+                        <a href="https://twitter.com/AngelskiandHell" target="_blank">
+                            <img src="./twitter.svg" className={style["icon"]}/>
                         </a> 
                     </div>
                 </div>

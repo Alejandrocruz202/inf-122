@@ -1,6 +1,10 @@
 "use client"
 import styles from "./datos.module.css"
 function Datos(){
+   
+    const download = () => {
+        alert("Downloading Document")
+    }
     return(
         <div className={styles["main"]}>
             <div className={styles["facts"]}>
@@ -18,13 +22,13 @@ function Datos(){
                 </div>
             </div>
             <div className={styles["buttons"]}>
-                <button className={styles["btn-primary"]} onclick="download()">
+                <button className={styles["btn-primary"]} onclick={download}>
                     <div className={styles["btn-content"]}>
                         <p>Download CV</p>
                         <img src="download.svg" alt="arrow" className={styles["btn-primary-img"]}/>
                     </div>
                 </button>
-                <a className={styles["btn-secondary"]} href="mailto:contact@me.com">
+                <a className={styles["btn-secondary"]} href="mailto:angelskyandhell@gmail.com">
                     <div className={styles["btn-content"]}>
                         <p>Contact me</p>
                     </div>

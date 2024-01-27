@@ -2,16 +2,6 @@
 
 
 .main {
-  --primary-background: #bfcfff;
-    --secondary-background: #809fff;
-    --primary-clear: #809fff;
-    --secondary-clear: #002db3;
-    --white: #FFFFFF;
-    --yellow: #0000ff;
-    --xs: 14px;
-    --sm: 22px;
-    --md: 24px;
-    --lg: 46px;
 
   margin: 0;
   padding: 0;
@@ -21,6 +11,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+ 
   width: 100%;
+}
+.main perfil{
+  margin-top: 100px;
 }

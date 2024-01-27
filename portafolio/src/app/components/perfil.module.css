@@ -3,20 +3,12 @@
 
 .profile {
     
-    --primary-background: #bfcfff;
-    --secondary-background: #809fff;
-    --primary-clear: #809fff;
-    --secondary-clear: #002db3;
-    --white: #FFFFFF;
-    --yellow: #0000ff;
-    --xs: 14px;
-    --sm: 22px;
-    --md: 24px;
-    --lg: 46px;
+
 
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
 
   }
   
@@ -36,7 +28,7 @@
     line-height: normal;
   }
   
-.profileimg {
+.profile-img {
     width: 215px;
     height: 215px;
     border-radius: 50%;
@@ -49,20 +41,20 @@
     border-style: solid;
   }
   
-.profileimg img {
+.profile-img img {
     border-radius: 50%;
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
   
-.profilesocial {
+.profile-social {
     display: inline-flex;
     align-items: flex-start;
     gap: 26px;
 }
   
-.profilesocial-img {
+.profile-social-img {
     width: 36px;
     height: 36px;
 }
