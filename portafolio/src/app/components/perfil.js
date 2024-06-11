@@ -5,10 +5,10 @@ function Perfil(){
     return(
         <div className={style["profile"]}>
                 <figure className={style["profile-img"]}>
-                    <img src="perfil.jpeg"/>
+                    <img src="perfilB.jpeg"/>
                 </figure>
                 <div className={style["profile-info"]}>
-                    <h1>Alejandro Angel</h1>
+                    <h1>Joel Bemjamin </h1>
                     <h1>Cruz Chacon</h1>
                     <p>junior developer</p>
                     <div className={style["profile-social"]}>

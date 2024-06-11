@@ -1,10 +1,10 @@
 :root {
-  --primary-background: #bfcfff;
-    --secondary-background: #809fff;
-    --primary-clear: #809fff;
-    --secondary-clear: #002db3;
+  --primary-background: #b455ac;
+    --secondary-background: #792174;
+    --primary-clear: #bb39b2;
+    --secondary-clear: #430041;
     --white: #FFFFFF;
-    --yellow: #0000ff;
+    --yellow: #430041;
   --xs: 14px;
   --sm: 22px;
   --md: 24px;
